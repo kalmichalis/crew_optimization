@@ -27,7 +27,7 @@ GA_GENS = 300
 GA_PATIENCE = 60
 
 # Εμφάνιση αναλυτικών προγραμμάτων
-SHOW_SCHEDULES = False
+SHOW_SCHEDULES = True
 
 # Αναπαραγωγιμότητα αποτελεσμάτων
 SEED = 42
