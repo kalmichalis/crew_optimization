@@ -199,7 +199,7 @@ $$
 
 ```powershell
 py -3.10 -m venv .venv
-.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+.\venv\Scripts\python.exe -m pip install -r requirements.txt
 ```
 
 Με τον τρόπο αυτό οι βιβλιοθήκες εγκαθίστανται στο περιβάλλον του project, χωρίς να επηρεάζουν την υπόλοιπη Python του υπολογιστή.
@@ -209,13 +209,13 @@ py -3.10 -m venv .venv
 Για να εκτελέσουμε το κύριο πρόγραμμα:
 
 ```powershell
-.\.venv\Scripts\python.exe main.py
+.\venv\Scripts\python.exe main.py
 ```
 
 Για τους αυτοματοποιημένους ελέγχους:
 
 ```powershell
-.\.venv\Scripts\python.exe -m pytest -q
+.\venv\Scripts\python.exe -m pytest -q
 ```
 
 Στην έκδοση που αξιολογήθηκε, ολοκληρώθηκαν **113 tests επιτυχώς**.
@@ -223,7 +223,7 @@ py -3.10 -m venv .venv
 Για να επαναλάβουμε το πλήρες benchmark:
 
 ```powershell
-.\.venv\Scripts\python.exe experiments/benchmark.py
+.\venv\Scripts\python.exe experiments/benchmark.py
 ```
 
 Το benchmark περιλαμβάνει και τον GA, οπότε μπορεί να χρειαστεί αρκετός χρόνος. Επίσης, πριν το επανεκτελέσουμε, ελέγχουμε τη διαδρομή του αρχείου αποτελεσμάτων, ώστε να μη γίνει κατά λάθος αντικατάσταση ή ανάμειξη παλιών μετρήσεων.
