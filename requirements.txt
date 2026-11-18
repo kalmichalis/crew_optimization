@@ -1,0 +1,10 @@
+# Core optimization solvers
+ortools
+PuLP
+
+# Optional Excel input / template export
+pandas
+openpyxl
+
+# Automated tests
+pytest
